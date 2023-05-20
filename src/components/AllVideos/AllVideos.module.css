@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+}
+
+.category {
+  background: #848898;
+  border-radius: 3px;
+  color: #1f2024;
+  padding: 2px 4px;
+  cursor: pointer;
+}

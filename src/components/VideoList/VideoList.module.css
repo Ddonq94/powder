@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all {
+  color: #ccff00;
+}
+
+.videos {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  float: right;
+}

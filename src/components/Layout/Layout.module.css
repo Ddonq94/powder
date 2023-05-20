@@ -1,0 +1,21 @@
+.main {
+  background: #141517;
+  height: 100vh;
+}
+
+.body {
+  padding: 0px 40px;
+}
+
+/* Extra large devices (large laptops and desktops, 1312px and up) */
+@media only screen and (min-width: 1312px) {
+  .body {
+    padding: 0px 166px;
+  }
+}
+
+.partition {
+  border: 1px solid #848898;
+  margin-bottom: 22px;
+  opacity: 0.2;
+}
