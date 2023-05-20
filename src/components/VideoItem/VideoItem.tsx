@@ -23,7 +23,6 @@ export const VideoItem = ({
   const handleLoadedMetadata = () => {
     const video: any = videoEl.current;
     if (!video) return;
-    console.log(`The video is ${video.duration} seconds long.`);
     setDuration(Math.round(video.duration));
   };
 
